@@ -115,8 +115,8 @@ const initApp = async () => {
         WC.handleRequest(intentMap)
     })
 
-    app.listen(process.env.PORT || 80, async () => {
-        console.log(`PORT: ${process.env.PORT || 80}`)
+    app.listen(process.env.PORT || 4000, async () => {
+        console.log(`PORT: ${process.env.PORT || 4000}`)
     })
 }
 
